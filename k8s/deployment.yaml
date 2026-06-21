@@ -33,7 +33,7 @@ kind: Service
 metadata:
   name: back-despacho-service
 spec:
-  type: ClusterIP
+  type: LoadBalancer
   selector:
     app: back-despacho
   ports:

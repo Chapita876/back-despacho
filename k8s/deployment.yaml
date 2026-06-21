@@ -16,7 +16,7 @@ spec:
         - name: back-despacho
           image: christian98756/back-despacho:latest
           ports:
-            - containerPort: 8080
+            - containerPort: 8081
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: "test"
@@ -37,5 +37,5 @@ spec:
   selector:
     app: back-despacho
   ports:
-    - port: 8080
-      targetPort: 8080
+    - port: 8081
+      targetPort: 8081

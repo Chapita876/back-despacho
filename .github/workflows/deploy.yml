@@ -23,4 +23,4 @@ jobs:
           context: ./Springboot-API-REST
           file: ./Springboot-API-REST/Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/back-ventas:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/back-despacho:latest

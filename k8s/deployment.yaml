@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: back-ventas
+        app: back-despacho
     spec:
       containers:
         - name: back-despacho

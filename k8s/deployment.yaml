@@ -35,7 +35,7 @@ metadata:
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-scheme: internal
 spec:
-  type: LoadBalancer
+  type: ClusterIP
   selector:
     app: back-despacho
   ports:

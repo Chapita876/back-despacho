@@ -40,7 +40,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Actualizar kubeconfig
-        run: aws eks update-kubeconfig --region us-east-1 --name EKS-Proyecto
+        run: aws eks update-kubeconfig --region us-east-1 --name Proyecto
 
       - name: Aplicar manifiestos de Kubernetes
         run: kubectl apply -f k8s/deployment.yaml
